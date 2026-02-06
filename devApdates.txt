@@ -1,0 +1,58 @@
+Scrum note
+Since there were not any open tickets available, I worked on a ticket which was for 3 developers. It was ti find bugs on NSC events. Since I am not familiar with the backend that well, I tried to find the bugs on the front end. I found 7 bugs after logging in as user, creator and admin. One of the main parts of the app that seem to be buggy is the add and edit event form. Currently edit and create events have different forms, which I think needs to change. I think it would be ideal if a same form was used both with similar logic. Also another suggestion is making tags on the main events page clickable. Since these are not necessarily bugs, I did not include them. 
+
+Issue: https://github.com/SeattleColleges/nsc-events-nextjs/issues/704
+Issue: https://github.com/SeattleColleges/nsc-events-nextjs/issues/703
+Issue: https://github.com/SeattleColleges/nsc-events-nextjs/issues/702
+Issue: https://github.com/SeattleColleges/nsc-events-nextjs/issues/701
+Issue: https://github.com/SeattleColleges/nsc-events-nextjs/issues/700
+Issue: https://github.com/SeattleColleges/nsc-events-nextjs/issues/699
+Issue: https://github.com/SeattleColleges/nsc-events-nextjs/issues/698
+About 10 hours spend
+Hour and half or so for finding and reporting bugs.
+Learning outcomes:
+    Manual testing of the app
+
+Since this is not a normal development week and I did not do much of code, none of the other sections are included.
+
+
+Scrum Note
+For week two, I worked on geek girl con for the first time. I set up my environment and tried to get a feel for the project. I picked up issue 162 which was investigating a white splash screen  that used to be green before. This was due to a change starting with sdk 52. I tried to change the configurations files to see if anything changes and nothing did. So I did do some research and the got the same answer. It was that expo do not preview the actual splash screen anymore and you have to run the ass as  a build and not in expo. Me and Katrina met up to talk about the issue.
+
+Issue: https://github.com/GeekGirlCon/mobile-app/issues/162
+Setting up and going over the project 4 hours
+Meeting with team 1hr
+meeting with Katrina 1hr
+Research on the issue: 8 hours
+
+Total 14 hours
+
+
+Scrum note
+I continued to work on the same issue from last week. I did some more research and was coming to the same conclusion, there is no way to preview the changes to the splash screen on an expo build. Katrina came to the same conclusion as well. Ayub confirmed that we can ignore this issue since it is not reproducible and there is no picture or video os the issue to go off of. I also did pr reviews for week 2. Hopefully I am able to find some development related tasks for upcoming weeks.
+
+Issue: https://github.com/GeekGirlCon/mobile-app/issues/162
+PR Review 1: https://github.com/GeekGirlCon/mobile-app/pull/165
+PR Review 2: https://github.com/SeattleColleges/seattlecolleges.github.io/pull/124#pullrequestreview-3720541826
+
+Total Hours for week 3: 6 hours
+    Issue: 4 hours
+    PR Reviews: 2 hours 
+
+
+Week 4
+Scrum note
+This week I worked on issue 142 for NSC Events. The password reset workflow allowed users to reset their credentials to the same password they are already using. This was very inefficient and caused unnecessary work. I added a password validation feature to prevent this from happening. This was a good experience and I was able to work with the back end and the front end and see how the two interacts with each other. I was able to understand a lot. Especially navigating the project and understanding the structure. Currently the PR is not able to merge because of some failing tests. I have never done tests, so this will be a good chance for me to learn how to do tests. I also did two reviews for the same pr. The first time, there was an issue, and troy suggested me to try something else and I did that as well. There still seems to be a bug that is causing an issue. This needs to be addressed.
+
+Issue: https://github.com/SeattleColleges/nsc-events-fullstack/issues/143
+
+Pull request: https://github.com/SeattleColleges/nsc-events-fullstack/pull/147
+
+Branch: https://github.com/SeattleColleges/nsc-events-fullstack/tree/143-missing-password-reuse-validation
+
+Pull request review: https://github.com/GeekGirlCon/mobile-app/pull/159
+
+Total hours: 21
+Understanding the code and working on the issue: 18 hours
+PR Reviews: 2 hour 
+Pull request: 1 hour
