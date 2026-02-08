@@ -56,3 +56,13 @@ Total hours: 21
 Understanding the code and working on the issue: 18 hours
 PR Reviews: 2 hour 
 Pull request: 1 hour
+
+Week 5
+This week I fixed the tests that were failing on the pr that was wfailing last week, My pr broke some of the tests and they had to be rewritten. It was my first time writing tests and the logic was pretty hard for me to understand. I had to do a little bit of research to figure out what I was doing and I am still not confident on how it is going. I think I need to pick up couple of the writing tests tasks and see if I can learn about it. I also helped troy review a pr. It was still failing and it needs to be changed. I had to do some extra work on figuring out what the issue was. I am going to do some research on the issue and see if I can figure out what is going on. 
+
+Issue:https://github.com/GeekGirlCon/mobile-app/pull/159
+PR:https://github.com/SeattleColleges/nsc-events-fullstack/pull/147
+PR Review:https://github.com/GeekGirlCon/mobile-app/pull/159
+Total hours 15: 
+    Research and writing tests: 13 hours
+    PR Review: 2 hours
