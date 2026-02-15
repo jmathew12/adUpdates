@@ -1,3 +1,12 @@
+Week 6
+This week, I worked on researching an issue with geekgirlcon. There was an issue with the android push notifications failing. I did research and found out that the notifications were failing because expo-notifications were removed from expo go starting sdk 53. So instead of using expo go to test it, you would have to create a development build on an android phone to test it. I was able to do this. This was the first time I was testing something and I was able to fidure out that notifications were working as intended. No pull request was needed for it since there was no "issue" to resolve other than just finding out that we needed to change the way we test some of the prs because of the limitation of expo go. This was similar to the issue we ran into week 1 and two where splash screen did not show in expo go either and we needed development build. This issue taught me about different types of builds and how to test them. Also about the difference between expo go and dev builds.
+
+Issue:https://github.com/GeekGirlCon/mobile-app/issues/169
+PR Review: https://github.com/GeekGirlCon/mobile-app/pull/159
+Total hours 11: 
+    Research, set up, and testing the build: 10 hours
+    PR Review: 1 hours
+
 Scrum note
 Since there were not any open tickets available, I worked on a ticket which was for 3 developers. It was ti find bugs on NSC events. Since I am not familiar with the backend that well, I tried to find the bugs on the front end. I found 7 bugs after logging in as user, creator and admin. One of the main parts of the app that seem to be buggy is the add and edit event form. Currently edit and create events have different forms, which I think needs to change. I think it would be ideal if a same form was used both with similar logic. Also another suggestion is making tags on the main events page clickable. Since these are not necessarily bugs, I did not include them. 
 
