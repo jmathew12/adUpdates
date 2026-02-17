@@ -26,7 +26,7 @@ As the **Developer**, I was responsible for:
 
 ## Work Completed 
 
-### ([Missing Password Reuse Validation](https://github.com/SeattleColleges/nsc-events-fullstack/issues/143))
+### [Missing Password Reuse Validation](https://github.com/SeattleColleges/nsc-events-fullstack/issues/143)
 - Changed the password changing method to prevent unnecessary work done by the backend
 - Users used to be able to end the old password as the new password and the system would treat it as a new password and did unnecessary work. Made a change it this so that nothing gets done if new password is the same as old password
 
