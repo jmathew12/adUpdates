@@ -26,19 +26,14 @@ As the **Developer**, I was responsible for:
 
 ## Work Completed 
 
-### Password Change
+### ([Missing Password Reuse Validation](https://github.com/SeattleColleges/nsc-events-fullstack/issues/143))
 - Changed the password changing method to prevent unnecessary work done by the backend
 - Users used to be able to end the old password as the new password and the system would treat it as a new password and did unnecessary work. Made a change it this so that nothing gets done if new password is the same as old password
 
 ---
 
-### Supabase integration
+### [Report API Calls](https://github.com/SeattleColleges/nsc-events-fullstack/issues/146)
 - Assisted in helping with the current supabase integration. Researched all the backend endpoints currently the front end calls. 
-
----
-
-### Allow changing date and time only
-- A bug was preventing creators and admin from editing the only the date and time of the event, this is now fixed.
 
 ---
 
@@ -84,12 +79,12 @@ As the **Developer**, I was responsible for:
 ## Work Completed 
 
 ### Slpash Screen
-- A recent chnage in the sdk 53 was causing the splash screen to break. Researched this to figure out root cause for this.
+- A recent change in the sdk 53 was causing the splash screen to break. Researched this to figure out root cause for this.
 - This was caused by a change in the sdk and to test the splash screen, you need a development build. 
 
 ---
 
-### Push Notifications
+### [Push Notifications](https://github.com/GeekGirlCon/mobile-app/issues/169)
 - Push notifcations by the app was not working on android. I researched this as was able to figure out that this was also because of a change in the sdk and a development build is needed to test the feature as well.
 
 ---
