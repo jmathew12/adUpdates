@@ -1,3 +1,49 @@
+Week 10
+This week I worked I continued working on NSC events supabase backend implementation. I set up
+ the migrations file to create tables for the application. I also worked on authentication for the app as well. I am wondering whether the app will need dynamic check to see if the logged in user is authorized to perform actions or not. I will have to ask the project lead and get information on it. I also reviewed pull requests for Next Wave dev as well. 
+Issues:
+https://github.com/SeattleColleges/nsc-events-fullstack/issues/168
+https://github.com/SeattleColleges/nsc-events-fullstack/issues/169
+
+Pull Requests:
+https://github.com/SeattleColleges/nsc-events-fullstack/pull/178
+https://github.com/SeattleColleges/nsc-events-fullstack/pull/187
+
+PR Reviews:
+https://github.com/next-wave-dev-org/nwd-static-website/pull/178
+https://github.com/next-wave-dev-org/nwd-static-website/pull/152
+https://github.com/next-wave-dev-org/nwd-static-website/pull/176
+https://github.com/next-wave-dev-org/nwd-static-website/pull/173
+Total hours: 29 hours
+Issue 169: 10 hours
+Issue 168: 15 hours
+PR Reviews: 4 hours
+
+Week 9
+This week I worked on NWD static website and nsc events supabase backend switch. I am excited about the supabase project as I am learning a lot about the project. It is definetly challenging as I am learning a lot about it. I also worked on next wave dev. There is no pull request for nsc events as it is a work in progress.
+Issue: 
+https://github.com/next-wave-dev-org/nwd-static-website/issues/140
+https://github.com/SeattleColleges/nsc-events-fullstack/issues/169
+
+Branch:
+https://github.com/jmathew12/nsc-events-fullstack/tree/supabase-backend
+PR: 
+https://github.com/next-wave-dev-org/nwd-static-website/pull/149
+
+PR Review: 
+https://github.com/next-wave-dev-org/nwd-static-website/pull/154
+https://github.com/next-wave-dev-org/nwd-static-website/pull/153
+https://github.com/next-wave-dev-org/nwd-static-website/pull/133
+https://github.com/next-wave-dev-org/nwd-static-website/pull/138
+https://github.com/next-wave-dev-org/nwd-static-website/pull/147
+https://github.com/next-wave-dev-org/nwd-static-website/pull/148
+
+Total Hours: 26 hours
+NWD Issue and PR: 5 hours
+PR Reviews: 6 hours
+NSC Events Research and commits: 15 hours
+
+
 Week 8
 This week, I worked on nsc events and next wave dev static website. For NSC events, I set up the back end for supabase integration. We are going away from using nestjs as backend for nsc events. I had done some researach for it the past week. I removed all the back end technologies, installed supabase and added scripts for it. I also resolved a few of the merge conflicts next wave dev was having which was preventing some of the prs from closing. Also reviewed some of the pull requets.
 Issue: https://github.com/SeattleColleges/nsc-events-fullstack/issues/145

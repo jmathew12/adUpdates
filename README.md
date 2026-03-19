@@ -25,6 +25,10 @@ As the **Developer**, I was responsible for:
 ---
 
 ## Work Completed 
+### [Supabase backend integration](https://github.com/SeattleColleges/nsc-events-fullstack/tree/supabase-backend-setup)
+- I have been working on the supabase backend integration. We are goinf away from using NestJS as the backend for NSC Events. I have been working on tasks that will help with this. I have so far created the database in supabase and have done the authentication in supabase as well. There are more steps to this.
+
+---
 
 ### [Missing Password Reuse Validation](https://github.com/SeattleColleges/nsc-events-fullstack/issues/143)
 - Changed the password changing method to prevent unnecessary work done by the backend
